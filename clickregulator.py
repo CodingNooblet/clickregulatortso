@@ -19,7 +19,7 @@ import logging
 #    time.sleep(2)
 #logging.info(pyautogui.size())
 #logging.basicConfig(filename='log0.log', level=logging.INFO)
-dir = 'C:/Users/Umar/.PyCharmCE2018.3/config/scratches/spinach/clickregulator/resources/'
+dir = './clickregulator/resources/'
 im = pyautogui.screenshot(dir+'screencapture01.png',region=(405,135,1252,740))
 explorertimedict = {}
 buffcooldownsdict = {}
